@@ -1,0 +1,12 @@
+torch>=2.0.0
+torchvision
+opencv-python
+opencv-contrib-python
+kornia
+numpy
+Pillow
+psutil
+tqdm
+streamlit
+pyyaml
+requests
