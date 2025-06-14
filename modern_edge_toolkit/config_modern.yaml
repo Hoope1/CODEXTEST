@@ -1,0 +1,5 @@
+# Placeholder configuration for Modern Edge Detection Toolkit
+input_dir: images
+output_dir: results
+use_gpu: true
+batch_size: 1
