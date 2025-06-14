@@ -1,5 +1,14 @@
-# Placeholder configuration for Modern Edge Detection Toolkit
+# Default configuration for the Modern Edge Detection Toolkit
 input_dir: images
 output_dir: results
 use_gpu: true
 batch_size: 1
+
+# Paths to model files
+bdcn_weight: bdcn_repo/pretrained/bdcn_pretrained.pth
+rcf_weight: rcf_repo/model/RCF.pth
+hed_prototxt: hed_repo/deploy.prototxt
+hed_weight: hed_repo/hed_pretrained_bsds.caffemodel
+dexined_weight: dexined_repo/weights/dexined.pth
+casenet_weight: casenet_repo/model/casenet.pth
+structured_model: models/structured/model.yml.gz
